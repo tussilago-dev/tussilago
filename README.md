@@ -2,6 +2,14 @@
 
 Monorepo for Tussilago, a Python-focused hosting platform for Django apps, bots, and web services.
 
+## TL;DR
+
+```sh
+uv run python infra/download_firecracker.py
+sudo "$(pwd)/.venv/bin/python" infra/download_firecracker.py --install
+uv run python infra/download_firecracker.py --verify
+```
+
 ## Contributing
 
 See CONTRIBUTING.md for developer setup and workflow.
