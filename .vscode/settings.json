@@ -5,6 +5,7 @@
         "isort",
         "Joakim",
         "pydocstyle",
+        "pytest",
         "tussilago"
     ]
 }
